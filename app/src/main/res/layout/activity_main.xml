@@ -54,6 +54,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btn_add"
         android:layout_below="@+id/input_b"
         android:layout_marginTop="50dp"
         android:text="Tổng 2 số"
@@ -61,6 +62,6 @@
         android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClickAddButton"/>
+        />
 
 </RelativeLayout>
